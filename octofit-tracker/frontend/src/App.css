@@ -1,0 +1,73 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.App-header {
+  background: none;
+  padding-bottom: 0;
+}
+
+h1, h2, h4 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+.card-header {
+  font-size: 1.2rem;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.table-dark th {
+  background: #007bff;
+  color: #fff;
+}
+.btn {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  border-radius: 4px;
+  margin: 4px;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #00c6ff 0%, #007bff 100%);
+  color: #ffd700;
+}
+.form-control {
+  border-radius: 4px;
+}
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.modal-content {
+  border-radius: 12px;
+}
